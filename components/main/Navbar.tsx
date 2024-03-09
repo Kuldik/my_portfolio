@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div>
+        <div className="md:block hidden">
           <a href="mailto:your-email@example.com" className="text-white button-primary p-2 rounded-xl">Contact me</a>
           <a href="https://codepen.io/Klimenko-Tim/pens/public" className="ml-[10px] text-white button-primary p-2 rounded-xl">Codepen</a>
           <a href="https://github.com/Kuldik" className="ml-[10px] text-white button-primary p-2 rounded-xl">Github</a>
