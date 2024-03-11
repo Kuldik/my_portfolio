@@ -91,32 +91,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Material UI",
-      Image: "./mui.png",
-      width: 80,
-      height: 80,
-    },
-    {
       skill_name: "React",
       Image: "./react.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Redux",
-      Image: "./redux.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "React Query",
-      Image: "./reactquery.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Type Script",
-      Image: "./ts.png",
       width: 80,
       height: 80,
     },
@@ -132,6 +108,25 @@ export const Skill_data = [
       width: 40,
       height: 40,
     },
+    // {
+    //   skill_name: "Redux",
+    //   Image: "./redux.png",
+    //   width: 80,
+    //   height: 80,
+    // },
+    // {
+    //   skill_name: "React Query",
+    //   Image: "./reactquery.png",
+    //   width: 80,
+    //   height: 80,
+    // },
+    // {
+    //   skill_name: "Type Script",
+    //   Image: "./ts.png",
+    //   width: 80,
+    //   height: 80,
+    // },
+
   ];
   
   
