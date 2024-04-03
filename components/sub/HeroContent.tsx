@@ -46,11 +46,12 @@ const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m a Frontend Developer with experience in Website and
-          Mobile development. Check out my projects and skills.
+          Applications development. Check out my projects and skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          href="https://github.com/Kuldik"
         >
           Learn More!
         </motion.a>

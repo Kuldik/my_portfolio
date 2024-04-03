@@ -28,16 +28,13 @@ const Footer = () => {
                     <div className="font-bold text-[16px]">About</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                       
-                        <span className="text-[15px] ml-[6px]">Learning about me</span>    
+                        <a href="https://github.com/Kuldik" className="text-[15px] ml-[6px]">Learning about me</a>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">tim.klimenkoo@gmail.com</span>    
+                        <a href="mailto:tim.klimenkoo@gmail.com" className="text-[15px] ml-[6px]">tim.klimenkoo@gmail.com</a>    
                     </p>
                 </div>
-            </div>
-            <div className="mb-[20px] text-[15px] text-center">
-                &copy; 2023  All rights reserved
             </div>
         </div>
     </div>

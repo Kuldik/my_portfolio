@@ -25,6 +25,7 @@ const Projects = () => {
           src="./Instoria.png"
           title="Instoria Website"
           description="This is multipage website build using HTML SASS, JS, PHP and WordPress. Also, in this website we use WooCommerce plugins as well. I did this project with my mentor. The task was to completely redesign the site and create additional functionality and pages in JS and PHP."
+          href="https://instoria.ru"
         />
       </div>
     </div>
