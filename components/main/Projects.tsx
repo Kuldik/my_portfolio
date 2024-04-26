@@ -11,10 +11,20 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col gap-10 px-10 text-3xl">
+      <ProjectCard
+          src="./Planner.png"
+          title="Planner app"
+          description="This is an application for planning tasks, with user authorization / registration functionality, a Pomodoro timer for monitoring concentration, a page for organizing a daily routine, and account settings."
+        />
         <ProjectCard
           src="./Canvas.png"
           title="Canvas"
           description="This is some canvas projects I have done. You can look at them on my codepen page."
+        />
+        <ProjectCard
+          src="./EmailEditor.png"
+          title="Email-Editor"
+          description="This application allows you to type text, display it in a separate block, and apply different styles to it using the buttons on the panel below the text field."
         />
         <ProjectCard
           src="./Blog-project.png"
