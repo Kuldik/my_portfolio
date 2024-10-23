@@ -11,7 +11,12 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col gap-10 px-10 text-3xl">
-      <ProjectCard
+        <ProjectCard
+          src="./BankDash.png"
+          title="BankDash app"
+          description="This is online bank application. It is created using React.js. The goal of this project was to create a banking app that allows users to transfer money between accounts, check their balance, and make transactions."
+        />
+        <ProjectCard
           src="./Planner.png"
           title="Planner app"
           description="This is an application for planning tasks, with user authorization / registration functionality, a Pomodoro timer for monitoring concentration, a page for organizing a daily routine, and account settings."
