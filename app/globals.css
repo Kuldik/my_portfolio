@@ -69,3 +69,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+canvas, canvas * {
+  pointer-events: none !important;
+}
