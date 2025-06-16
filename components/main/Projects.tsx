@@ -14,26 +14,31 @@ const Projects = () => {
         <ProjectCard
           src="./BankDash.png"
           title="BankDash app"
+          href="https://kuldik.github.io/Dashboard_UI_Kit/"
           description="This is online bank application. It is created using React.js. The goal of this project was to create a banking app that allows users to transfer money between accounts, check their balance, and make transactions."
         />
         <ProjectCard
           src="./Planner.png"
           title="Planner app"
+          href="https://github.com/Kuldik/Planner"
           description="This is an application for planning tasks, with user authorization / registration functionality, a Pomodoro timer for monitoring concentration, a page for organizing a daily routine, and account settings."
         />
         <ProjectCard
           src="./Canvas.png"
           title="Canvas"
+          href="https://codepen.io/Klimenko-Tim/pens/public"
           description="This is some canvas projects I have done. You can look at them on my codepen page."
         />
         <ProjectCard
           src="./EmailEditor.png"
           title="Email-Editor"
+          href="https://github.com/Kuldik/Email-editor"
           description="This application allows you to type text, display it in a separate block, and apply different styles to it using the buttons on the panel below the text field."
         />
         <ProjectCard
           src="./Blog-project.png"
           title="Blog-project app"
+          href="https://github.com/Kuldik/Blog-project"
           description="This app was build using React.js and MongoDB. It is a blog app where you can create, read, update and delete blog posts.And thanks to MongoDB server, u can register you account and log in it"
         />
         <ProjectCard

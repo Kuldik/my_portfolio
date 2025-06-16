@@ -24,22 +24,22 @@ const Navbar = () => {
 
         <div className="w-[500px] h-full flex flex-row items-center justify-around">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer">
+            <a target="_blank" href="#about-me" className="cursor-pointer text-[12px] md:text-[16px]">
               About me
             </a>
-            <a href="#skills" className="cursor-pointer">
+            <a target="_blank" href="#skills" className="cursor-pointer">
               Skills
             </a>
-            <a href="#projects" className="cursor-pointer">
+            <a target="_blank" href="#projects" className="cursor-pointer">
               Projects
             </a>
           </div>
         </div>
 
         <div className="md:block hidden">
-          <a href="mailto:tim.klimenkoo@gmail.com" className="text-white button-primary p-2 rounded-xl">Contact me</a>
-          <a href="https://codepen.io/Klimenko-Tim/pens/public" className="ml-[10px] text-white button-primary p-2 rounded-xl">Codepen</a>
-          <a href="https://github.com/Kuldik" className="ml-[10px] text-white button-primary p-2 rounded-xl">Github</a>
+          <a href="mailto:tim.klimenkoo@gmail.com" target="_blank" className="text-white button-primary p-2 rounded-xl">Contact me</a>
+          <a href="https://codepen.io/Klimenko-Tim/pens/public" target="_blank" className="ml-[10px] text-white button-primary p-2 rounded-xl">Codepen</a>
+          <a href="https://github.com/Kuldik" target="_blank" className="ml-[10px] text-white button-primary p-2 rounded-xl">Github</a>
         </div>
       </div>
     </div>
